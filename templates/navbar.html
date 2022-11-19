@@ -1,0 +1,10 @@
+<nav class="navbar bg-dark navbar-dark">
+    <div class="container-fluid justify-content-start">
+        <a class="navbar-brand" href="{% url 'home' %}">Message Board</a>
+        <div class="navbar-nav flex-row">
+            <a class="nav-link me-2" href="{% url 'about' %}">About</a>
+            <a class="nav-link me-2" href="{% url 'list' %}">Posts</a>
+            <a class="nav-link" href="{% url 'create' %}">New Post</a>
+        </div>
+    </div>
+</nav>
