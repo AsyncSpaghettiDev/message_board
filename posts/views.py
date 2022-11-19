@@ -1,14 +1,6 @@
-from django.views.generic import ListView, DetailView, TemplateView
+from django.views.generic import ListView, DetailView
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from .models import Post
-
-
-class HomeView(TemplateView):
-    template_name = 'posts/home.html'
-
-
-class AboutView(TemplateView):
-    template_name = 'posts/about.html'
 
 
 class PostListView(ListView):
